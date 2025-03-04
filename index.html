@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+<title>MIF</title>
+<link rel="stylesheet" type="text/css" href="mcestyle/common.css">
+<link rel="stylesheet" type="text/css" href="mcestyle/custom.css">
+<!--<script src="createJS/jquery-latest.min.js"></script>-->
+<!--<script src="createJS/jquery-1.11.1.js"></script>-->
+<script src="createjs/easeljs-0.8.1.min.js"></script>
+<script src="createjs/tweenjs-0.6.1.min.js"></script>
+<script src="createjs/movieclip-0.8.1.min.js"></script>
+<script src="createjs/preloadjs-0.6.2.min.js"></script>
+<script src="createjs/soundjs-0.6.2.min.js"></script>
+<script src="lib/keymap.js"></script>
+<script src="lib/cscrollview.js"></script>
+<script src="lib/cscrollbar.js"></script>
+<script src="lib/cbutton.js"></script>
+<script src="lib/cbase.js"></script>
+<script src="lib/csprite.js"></script>
+<script src="lib/cradiobutton.js"></script>
+<script src="lib/ccheckbox.js"></script>
+<script src="lib/cpushbutton.js"></script>
+<script src="lib/chotspot.js"></script>
+<script src="lib/cmovieclip.js"></script>
+<script src="lib/ctextfield.js"></script>
+<script src="lib/cclickabletext.js"></script>
+<script src="lib/ckeyboard.js"></script>
+<script src="lib/carray.js"></script>
+<script src="lib/ctransit.js"></script>
+<script src="lib/cmodule.js"></script>
+<script src="lib/cloader.js"></script>
+<script src="lib/sys.js"></script>
+<script src="lib/asset/keyboard_canvas.js"></script>
+<script src="src/cclone.js"></script>
+<script src="src/main.js"></script>
+<script>
+function init() {		
+	<!--fPreLoadAudio();-->
+	MAIN.fInit();
+}
+</script>
+</head>
+
+<body onload="init();" style="background-color:#D4D4D4 ; overflow:hidden">
+	<canvas id="canvas" width="1024" height="768" style="background-color:#D4D4D4"></canvas>
+	<img id="Talk_L_Fox" src="images/talk_l_fox.png" type="image/png" style="display:none"></img>
+	<img id="Talk_L_Hedgehog" src="images/talk_l_hedgehog.png" type="image/png" style="display:none"></img>
+	<img id="Talk_R_Bear" src="images/talk_r_bear.png" type="image/png" style="display:none"></img>
+	<img id="Talk_R_Racoon" src="images/talk_r_racoon.png" type="image/png" style="display:none"></img>
+</body>
+</html>

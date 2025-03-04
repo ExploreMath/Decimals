@@ -1,0 +1,51 @@
+/*base setting, do not remove, just add what you need example:font-family*/
+html, body, div, canvas 
+{
+	padding:0; 
+	margin:0;
+	border:0;	
+	font-family:'Century Gothic';
+}
+
+/*default version*/
+@font-face {
+	font-family: 'Century Gothic';
+	src: 
+		local('Century Gothic'),
+		url('fonts/century_gothic.ttf') 
+		format('truetype');
+}
+
+@font-face {
+	font-family: 'Drescher Grotesk BT MCO';
+	src: 
+		local('AMCE-Regular'),
+		url('fonts/dreschergroteskbtmco-regula.otf') 
+		format('opentype');
+}
+
+/*bold version*/
+@font-face {
+	font-family: 'Century Gothic';
+	src: 
+		local('Century Gothic'),
+		url('fonts/gothicb0.ttf') 
+		format('truetype');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'Drescher Grotesk BT MCO';
+	src: 
+		url('fonts/dreschergroteskbtmco-bold.otf')
+		format('opentype');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'AMCE Basic';
+	src: 
+		local('AMCE-Regular'),
+		url('fonts/amcebasic-regular.otf') format('opentype'),
+		url('fonts/amcebasic-regular.woff') format('woff');
+}
